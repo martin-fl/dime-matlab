@@ -30,3 +30,12 @@ things to do:
   to the other sibs).
 
 After that you should be good to go (modulo compilation errors :-)).
+
+## TODO
+
+- currently the `matlab_common` library is copy pasted from
+  `matlab_integration/` to `matlab_showcase/dependencies/` and not shared as a
+  jar because maven is a headache
+- exceptions are barely handled on the client-side
+- still haven't figured out how to ergonomically use Nd arrays in DIME
+- graphs, anyone ?
