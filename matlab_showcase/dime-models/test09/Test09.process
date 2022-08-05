@@ -1,0 +1,20 @@
+Process _Ucwn0U-bEemuzLIVcIcNvQ {
+  modelName "Test09"
+  description "Test09"
+  dataFlowView true
+  processType Basic
+  isStateful false
+  StartSIB _W1Jbjk-bEemuzLIVcIcNvQ at 250,50 size 100,65 {
+  	-ControlFlow-> _X6c2sU-bEemuzLIVcIcNvQ  decorate "" at (0,0) {
+  		id _W1Me0U-bEemuzLIVcIcNvQ
+  		concurrent true
+  	}
+  }
+  
+  GUISIB _X6c2sU-bEemuzLIVcIcNvQ at 240,150 size 120,65 {
+  	name "Test09_1"
+  	majorPage true
+  	label "Test09_1"
+  	libraryComponentUID "_6wVs8U-aEemuzLIVcIcNvQ"
+  }
+}

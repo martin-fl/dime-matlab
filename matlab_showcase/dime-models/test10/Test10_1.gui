@@ -1,0 +1,83 @@
+GUI _bApWIU-cEemuzLIVcIcNvQ {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "Test10_1"
+  Template _bA2KcU-cEemuzLIVcIcNvQ at 260,10 size 320,170 {
+  	blockName "body"
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _bA2xgE-cEemuzLIVcIcNvQ {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Headline _cJueFE-cEemuzLIVcIcNvQ at 10,30 size 300,50 {
+  		size Normal
+  		generalStyle GeneralStyling _cJueGU-cEemuzLIVcIcNvQ {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  				rawContent "margin-top: 0;"
+  			}
+  		content [ StaticContent _cJueGk-cEemuzLIVcIcNvQ {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "Test 10"
+  				styling TextStyling _cJueG0-cEemuzLIVcIcNvQ {
+  						small false
+  						highlight false
+  						deleted false
+  						color Default
+  						underline false
+  						bold false
+  						alignment Left
+  						italic false
+  					}
+  			} ]
+  		MoveUp _cJueHU-cEemuzLIVcIcNvQ at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _cJueIE-cEemuzLIVcIcNvQ at 2,10 size 14,7 {
+  		}
+  	}
+  	
+  	Headline _ejV-gVX3Eem0pKsEEHUPIw at 10,90 size 300,50 {
+  		size Small
+  		generalStyle GeneralStyling _ejV-hlX3Eem0pKsEEHUPIw {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		content [ StaticContent _ejV-h1X3Eem0pKsEEHUPIw {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "Not implemented."
+  				styling TextStyling _ejV-iFX3Eem0pKsEEHUPIw {
+  						small false
+  						highlight false
+  						deleted false
+  						color Default
+  						underline false
+  						bold false
+  						alignment Left
+  						italic false
+  					}
+  			} ]
+  		MoveUp _ejV-ilX3Eem0pKsEEHUPIw at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _ejV-jVX3Eem0pKsEEHUPIw at 2,10 size 14,7 {
+  		}
+  	}
+  }
+  
+  DataContext _fBfVYU-cEemuzLIVcIcNvQ at 10,10 size 200,841 {
+  	dfViewWorkaround true
+  }
+}

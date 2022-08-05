@@ -1,0 +1,20 @@
+Process _sKYicE-VEemuzLIVcIcNvQ {
+  modelName "Test07"
+  description "Test07"
+  dataFlowView true
+  processType Basic
+  isStateful false
+  StartSIB _tWiMgU-VEemuzLIVcIcNvQ at 250,50 size 100,65 {
+  	-ControlFlow-> _u8PmEU-VEemuzLIVcIcNvQ  decorate "" at (0,0) {
+  		id _tWiMh0-VEemuzLIVcIcNvQ
+  		concurrent true
+  	}
+  }
+  
+  GUISIB _u8PmEU-VEemuzLIVcIcNvQ at 240,150 size 120,65 {
+  	name "Test07_1"
+  	majorPage true
+  	label "Test07_1"
+  	libraryComponentUID "_MzjCcU-VEemuzLIVcIcNvQ"
+  }
+}

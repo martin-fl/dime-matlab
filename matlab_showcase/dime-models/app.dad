@@ -1,0 +1,35 @@
+DAD _9G1SoMwLEeWZVvvwxpYu8A {
+  mode Development
+  postScripts [  ]
+  appName "NewDIME App"
+  errorMessage ""
+  additionalStylesheets [  ]
+  preScripts [  ]
+  externalResources [  ]
+  Start _9xD7YMwLEeWZVvvwxpYu8A at 48,70 size 20,21 {
+  	-StartupProcessPointer-> _e0kD8NvjEeWvrN7BnrpCFw  decorate "Polyline" at (2,0) {
+  		id _fbjygNvjEeWvrN7BnrpCFw
+  	}
+  	
+  	-RootInteractionPointer-> _4yVkYUQDEemZRquJCsbYvA  decorate "" at (0,0) {
+  		id _5PO7wUQDEemZRquJCsbYvA
+  	}
+  }
+  
+  ProcessComponent _e0kD8NvjEeWvrN7BnrpCFw at 100,40 size 128,32 {
+  	libraryComponentUID "_sA1GYNviEeWsF7MALrkAZQ"
+  }
+  
+  DataComponent _F_rGIMwNEeWZVvvwxpYu8A at 260,40 size 128,32 {
+  	libraryComponentUID "_tH3fEMwMEeWZVvvwxpYu8A"
+  }
+  
+  SystemUser _DyCqAF4SEear0NzybbrMtw at 260,80 size 128,32 {
+  	libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
+  }
+  
+  ProcessComponent _4yVkYUQDEemZRquJCsbYvA at 100,80 size 128,32 {
+  	url "home"
+  	libraryComponentUID "_LWgagF-SEeakMeYoloYxpg"
+  }
+}

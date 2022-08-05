@@ -1,0 +1,36 @@
+GUI _tHTssE7wEemInsQIAma-Ow {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "Test04Wrapper"
+  DataContext _tHU60U7wEemInsQIAma-Ow at 10,10 size 200,1000 {
+  	dfViewWorkaround true
+  }
+  
+  Template _tHWwAU7wEemInsQIAma-Ow at 260,10 size 170,125 {
+  	blockName "body"
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _tHXXEE7wEemInsQIAma-Ow {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	ProcessSIB _x7LEUU7wEemInsQIAma-Ow at 10,30 size 150,65 {
+  		label "Test04"
+  		libraryComponentUID "_uuMK8U7wEemInsQIAma-Ow"
+  		generalStyle GeneralStyling _x7OusE7wEemInsQIAma-Ow {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _x7NgkU7wEemInsQIAma-Ow at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _x7OHoU7wEemInsQIAma-Ow at 2,10 size 14,7 {
+  		}
+  	}
+  }
+}

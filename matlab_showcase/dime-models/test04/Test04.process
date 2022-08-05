@@ -1,0 +1,20 @@
+Process _uuMK8U7wEemInsQIAma-Ow {
+  modelName "Test04"
+  description "Test04"
+  dataFlowView true
+  processType Basic
+  isStateful false
+  GUISIB _6Mtx0U7yEemInsQIAma-Ow at 240,150 size 120,65 index 1 {
+  	name "Test04_1"
+  	majorPage true
+  	label "Test04_1"
+  	libraryComponentUID "_0Tj4AU7wEemInsQIAma-Ow"
+  }
+  
+  StartSIB _v2srJE7wEemInsQIAma-Ow at 250,50 size 100,65 index 0 {
+  	-ControlFlow-> _6Mtx0U7yEemInsQIAma-Ow  decorate "" at (0,0) {
+  		id _v2srIk7wEemInsQIAma-Ow
+  		concurrent true
+  	}
+  }
+}

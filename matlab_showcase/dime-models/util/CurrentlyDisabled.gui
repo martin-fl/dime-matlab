@@ -1,0 +1,51 @@
+GUI _xSFzYU-mEemjFKl3IK5mJQ {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "CurrentlyDisabled"
+  DataContext _xSHBgU-mEemjFKl3IK5mJQ at 10,10 size 200,1000 {
+  	dfViewWorkaround true
+  }
+  
+  Template _xSIPoU-mEemjFKl3IK5mJQ at 260,10 size 320,110 {
+  	blockName "body"
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _xSI2sE-mEemjFKl3IK5mJQ {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Headline _1PI3wU-mEemjFKl3IK5mJQ at 10,30 size 300,50 {
+  		size Small
+  		generalStyle GeneralStyling _1PLUAE-mEemjFKl3IK5mJQ {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		content [ StaticContent _1PL7EE-mEemjFKl3IK5mJQ {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "Currently disabled. Check your profiles."
+  				styling TextStyling _1PL7EU-mEemjFKl3IK5mJQ {
+  						small false
+  						highlight false
+  						deleted false
+  						color Default
+  						underline false
+  						bold false
+  						alignment Left
+  						italic false
+  					}
+  			} ]
+  		MoveUp _1PKF4U-mEemjFKl3IK5mJQ at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _1PKF40-mEemjFKl3IK5mJQ at 2,10 size 14,7 {
+  		}
+  	}
+  }
+}

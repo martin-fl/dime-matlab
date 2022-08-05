@@ -1,0 +1,17 @@
+package matlab
+
+sib call_process: info.scce.dime.matlab.client.Bridge#call_process
+	a: real
+	b: real
+	-> success
+		result: real
+	
+sib call_function_no_args: info.scce.dime.matlab.client.Bridge#call_function_no_args
+	name: text
+	-> success
+		result: text
+		
+sib call_double: info.scce.dime.matlab.client.Bridge#call_double
+	xs: [real]
+	-> success
+		result: [real]

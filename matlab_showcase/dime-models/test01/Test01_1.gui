@@ -1,0 +1,238 @@
+GUI _l59ooUPhEemMpbK4L8n81A {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "Test01_1"
+  DataContext _l5-2wUPhEemMpbK4L8n81A at 10,10 size 200,255 {
+  	dfViewWorkaround true
+  	PrimitiveVariable _IGCtQRS7Ee2IGZgnq5kKgw at 30,80 size 140,25 {
+  		dataType Real
+  		isInput false
+  		name "a"
+  		dfViewWorkaround true
+  		isList false
+  		-FormSubmit-> _Fe4dwRS7Ee2IGZgnq5kKgw  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _IzPKcRS7Ee2IGZgnq5kKgw
+  		}
+  		
+  		-AddPrimitiveToSubmission-> _ElL1oRS7Ee2IGZgnq5kKgw  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _QJN5gRS7Ee2IGZgnq5kKgw
+  		}
+  	}
+  	
+  	PrimitiveVariable _KeekQRS7Ee2IGZgnq5kKgw at 30,140 size 140,25 {
+  		dataType Real
+  		isInput false
+  		name "b"
+  		dfViewWorkaround true
+  		isList false
+  		-FormSubmit-> _FKlowRS7Ee2IGZgnq5kKgw  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _MlBaARS7Ee2IGZgnq5kKgw
+  		}
+  		
+  		-AddPrimitiveToSubmission-> _ElL1oRS7Ee2IGZgnq5kKgw  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _PnMxkRS7Ee2IGZgnq5kKgw
+  		}
+  	}
+  	
+  	PrimitiveVariable _R9ZM4RS7Ee2IGZgnq5kKgw at 30,200 size 140,25 {
+  		dataType Real
+  		isInput true
+  		name "res"
+  		dfViewWorkaround true
+  		isList false
+  		-IF-> _VMZfgRS7Ee2IGZgnq5kKgw  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _XwCg8RS7Ee2IGZgnq5kKgw
+  			negate false
+  		}
+  	}
+  }
+  
+  Template _l5_d0UPhEemMpbK4L8n81A at 260,10 size 320,450 {
+  	blockName "body"
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _l6AE4EPhEemMpbK4L8n81A {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Headline _OwH34UPkEem5LKSUwH7DiQ at 10,30 size 300,50 {
+  		size Normal
+  		content [ StaticContent _OwMwYEPkEem5LKSUwH7DiQ {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "Basic function call (multiplication of two real numbers)"
+  				styling TextStyling _OwMwYUPkEem5LKSUwH7DiQ {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold false
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			} ]
+  		generalStyle GeneralStyling _OwK7MEPkEem5LKSUwH7DiQ {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  				rawContent "margin-top: 0;"
+  			}
+  		MoveUp _OwJtEUPkEem5LKSUwH7DiQ at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _OwJtE0PkEem5LKSUwH7DiQ at 2,10 size 14,7 {
+  		}
+  	}
+  	
+  	Form _ElCrsRS7Ee2IGZgnq5kKgw at 10,90 size 220,260 {
+  		inline false
+  		generalStyle GeneralStyling _ElhM0BS7Ee2IGZgnq5kKgw {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _ElG9IRS7Ee2IGZgnq5kKgw at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _ElILQRS7Ee2IGZgnq5kKgw at 2,10 size 14,7 {
+  		}
+  		
+  		Button _ElL1oRS7Ee2IGZgnq5kKgw at 10,170 size 200,60 {
+  			label "Submit"
+  			styling ButtonStyling _ElafIBS7Ee2IGZgnq5kKgw {
+  					fullWidth false
+  					size Default
+  					disabled false
+  					color Default
+  				}
+  			options ButtonOptions _Elc7YBS7Ee2IGZgnq5kKgw {
+  					isLink false
+  					submitsForm true
+  				}
+  			disabled false
+  			icon Icon _ElTxcBS7Ee2IGZgnq5kKgw {
+  					postIcon None
+  					preIcon None
+  				}
+  			generalStyle GeneralStyling _ElTKYBS7Ee2IGZgnq5kKgw {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveUp _ElO48RS7Ee2IGZgnq5kKgw at 2,2 size 14,7 {
+  			}
+  			
+  			MoveDown _ElQHERS7Ee2IGZgnq5kKgw at 2,10 size 14,7 {
+  			}
+  		}
+  		
+  		Field _FKlowRS7Ee2IGZgnq5kKgw at 10,100 size 200,60 {
+  			maxMB 0
+  			inputType Number
+  			label "b"
+  			styling FormFieldStyling _FK81IBS7Ee2IGZgnq5kKgw {
+  					size Default
+  					disabled false
+  					color Default
+  				}
+  			additionalOptions FormFieldAdditionalOptions _FK4jsBS7Ee2IGZgnq5kKgw {
+  					readonly false
+  				}
+  			validation FormFieldValidation _FKzrMBS7Ee2IGZgnq5kKgw {
+  					min 0
+  					max -1
+  					required false
+  				}
+  			disabled false
+  			icon Icon _FKuLoBS7Ee2IGZgnq5kKgw {
+  					postIcon None
+  					preIcon None
+  				}
+  			generalStyle GeneralStyling _FKtkkBS7Ee2IGZgnq5kKgw {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveUp _FKp6MRS7Ee2IGZgnq5kKgw at 2,2 size 14,7 {
+  			}
+  			
+  			MoveDown _FKrIURS7Ee2IGZgnq5kKgw at 2,10 size 14,7 {
+  			}
+  		}
+  		
+  		Field _Fe4dwRS7Ee2IGZgnq5kKgw at 10,30 size 200,60 {
+  			maxMB 0
+  			inputType Number
+  			label "a"
+  			styling FormFieldStyling _FfVwwBS7Ee2IGZgnq5kKgw {
+  					size Default
+  					disabled false
+  					color Default
+  				}
+  			additionalOptions FormFieldAdditionalOptions _FfRfUBS7Ee2IGZgnq5kKgw {
+  					readonly false
+  				}
+  			validation FormFieldValidation _FfLYsBS7Ee2IGZgnq5kKgw {
+  					min 0
+  					max -1
+  					required false
+  				}
+  			disabled false
+  			icon Icon _Fe_ygRS7Ee2IGZgnq5kKgw {
+  					postIcon None
+  					preIcon None
+  				}
+  			generalStyle GeneralStyling _Fe_ygBS7Ee2IGZgnq5kKgw {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveUp _Fe8IIRS7Ee2IGZgnq5kKgw at 2,2 size 14,7 {
+  			}
+  			
+  			MoveDown _Fe9WQRS7Ee2IGZgnq5kKgw at 2,10 size 14,7 {
+  			}
+  		}
+  	}
+  	
+  	Text _VMZfgRS7Ee2IGZgnq5kKgw at 10,360 size 200,60 {
+  		content [ StaticContent _VMhbURS7Ee2IGZgnq5kKgw {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "{{res}}"
+  				styling TextStyling _VMj3kBS7Ee2IGZgnq5kKgw {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold false
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			} ]
+  		generalStyle GeneralStyling _VMhbUBS7Ee2IGZgnq5kKgw {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _VMdw8RS7Ee2IGZgnq5kKgw at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _VMeYARS7Ee2IGZgnq5kKgw at 2,10 size 14,7 {
+  		}
+  	}
+  }
+}

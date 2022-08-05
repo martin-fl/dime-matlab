@@ -1,0 +1,51 @@
+GUI _-EYOQVX1Eem0pKsEEHUPIw {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "NotImplemented"
+  DataContext _-F3cAVX1Eem0pKsEEHUPIw at 10,10 size 200,1000 {
+  	dfViewWorkaround true
+  }
+  
+  Template _-GlNsVX1Eem0pKsEEHUPIw at 260,10 size 320,110 {
+  	blockName "body"
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _-T8UQFX1Eem0pKsEEHUPIw {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Headline _BVYE8VX2Eem0pKsEEHUPIw at 10,30 size 300,50 {
+  		size Small
+  		generalStyle GeneralStyling _BVYsAFX2Eem0pKsEEHUPIw {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		content [ StaticContent _BVYsAVX2Eem0pKsEEHUPIw {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "Not implemented."
+  				styling TextStyling _BVYsAlX2Eem0pKsEEHUPIw {
+  						small false
+  						highlight false
+  						deleted false
+  						color Default
+  						underline false
+  						bold false
+  						alignment Left
+  						italic false
+  					}
+  			} ]
+  		MoveUp _BVYsBFX2Eem0pKsEEHUPIw at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _BVYsB1X2Eem0pKsEEHUPIw at 2,10 size 14,7 {
+  		}
+  	}
+  }
+}

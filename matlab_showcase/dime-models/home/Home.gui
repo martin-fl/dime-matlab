@@ -1,0 +1,394 @@
+GUI _LmrS0Ej8EeaK4_MRcoLfnw {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "Home"
+  DataContext _Lmz1sEj8EeaK4_MRcoLfnw at 10,30 size 200,390 {
+  	dfViewWorkaround true
+  }
+  
+  Template _Lm3gEEj8EeaK4_MRcoLfnw at 270,30 size 390,1090 {
+  	blockName "body"
+  	disableAutoLayout false
+  	Jumbotron _6CcloEmAEeaUSpYQeYyxnQ at 10,30 size 370,850 {
+  		generalStyle GeneralStyling _hH5ScTD2EemwX93gZgy7kw {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _6Cj6YEmAEeaUSpYQeYyxnQ at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _6ClvkEmAEeaUSpYQeYyxnQ at 2,10 size 14,7 {
+  		}
+  		
+  		Row _pqsksE_OEeauEZ95mLTQ7g at 10,30 size 350,790 {
+  			generalStyle GeneralStyling _hH5SczD2EemwX93gZgy7kw {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveUp _pq6nIE_OEeauEZ95mLTQ7g at 2,2 size 14,7 {
+  			}
+  			
+  			MoveDown _pq7OME_OEeauEZ95mLTQ7g at 2,10 size 14,7 {
+  			}
+  			
+  			Col _prJ3sE_OEeauEZ95mLTQ7g at 10,30 size 320,740 {
+  				wideness Full
+  				layout Layout _hH55gTD2EemwX93gZgy7kw {
+  						size Default
+  						offset None
+  						alignment Center
+  					}
+  				generalStyle GeneralStyling _hH6gkTD2EemwX93gZgy7kw {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveLeft _prX6IE_OEeauEZ95mLTQ7g at 2,2 size 7,14 {
+  				}
+  				
+  				MoveRight _prYhME_OEeauEZ95mLTQ7g at 10,2 size 7,14 {
+  				}
+  				
+  				Headline _uAT6EE_OEeauEZ95mLTQ7g at 10,30 size 300,50 {
+  					size Medium
+  					content [ StaticContent _hH6gkzD2EemwX93gZgy7kw {
+  							renderMarkdown false
+  							maxChars 0
+  							html false
+  							rawContent "Test App"
+  						} ]
+  					generalStyle GeneralStyling _hH6glTD2EemwX93gZgy7kw {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  							rawContent ""
+  						}
+  					MoveUp _uAjxsE_OEeauEZ95mLTQ7g at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _uAk_0E_OEeauEZ95mLTQ7g at 2,10 size 14,7 {
+  					}
+  				}
+  				
+  				Button _MF6_kE_LEeauEZ95mLTQ7g at 10,90 size 200,60 {
+  					displayLabel "Test 01"
+  					label "Test 01"
+  					styling ButtonStyling _hH7HoTD2EemwX93gZgy7kw {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					options ButtonOptions _hH7HozD2EemwX93gZgy7kw {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon _hH7HpTD2EemwX93gZgy7kw {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _hH7HpzD2EemwX93gZgy7kw {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop Double
+  						}
+  					MoveUp _MGIa8E_LEeauEZ95mLTQ7g at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _MGJCAE_LEeauEZ95mLTQ7g at 2,10 size 14,7 {
+  					}
+  				}
+  				
+  				Button _j0M8kEQOEembOv0_Yl0Jqw at 10,160 size 200,60 {
+  					displayLabel "Test 02"
+  					label "Test 02"
+  					styling ButtonStyling _j0M8lkQOEembOv0_Yl0Jqw {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					options ButtonOptions _j0M8mEQOEembOv0_Yl0Jqw {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon _j0M8l0QOEembOv0_Yl0Jqw {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _j0M8lUQOEembOv0_Yl0Jqw {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop Double
+  						}
+  					MoveUp _j0M8mkQOEembOv0_Yl0Jqw at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _j0NjoUQOEembOv0_Yl0Jqw at 2,10 size 14,7 {
+  					}
+  				}
+  				
+  				Button _gwaBcU7wEemInsQIAma-Ow at 10,230 size 200,60 {
+  					displayLabel "Test 04"
+  					label "Test 04"
+  					styling ButtonStyling _gwaBd07wEemInsQIAma-Ow {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					options ButtonOptions _gwaBeU7wEemInsQIAma-Ow {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon _gwaBeE7wEemInsQIAma-Ow {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _gwaBdk7wEemInsQIAma-Ow {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop Double
+  						}
+  					MoveUp _gwaBe07wEemInsQIAma-Ow at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _gwaBfk7wEemInsQIAma-Ow at 2,10 size 14,7 {
+  					}
+  				}
+  				
+  				Button _Hda9cU70EemInsQIAma-Ow at 10,300 size 200,60 {
+  					displayLabel "Test 05"
+  					label "Test 05"
+  					styling ButtonStyling _Hda9d070EemInsQIAma-Ow {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					options ButtonOptions _Hda9eU70EemInsQIAma-Ow {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon _Hda9eE70EemInsQIAma-Ow {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _Hda9dk70EemInsQIAma-Ow {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop Double
+  						}
+  					MoveUp _Hda9e070EemInsQIAma-Ow at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _Hda9fk70EemInsQIAma-Ow at 2,10 size 14,7 {
+  					}
+  				}
+  				
+  				Button _mGvPIU7_EemInsQIAma-Ow at 10,370 size 200,60 {
+  					displayLabel "Test 06"
+  					label "Test 06"
+  					styling ButtonStyling _mGvPJ07_EemInsQIAma-Ow {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					options ButtonOptions _mGvPKU7_EemInsQIAma-Ow {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon _mGvPKE7_EemInsQIAma-Ow {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _mGvPJk7_EemInsQIAma-Ow {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop Double
+  						}
+  					MoveUp _mGvPK07_EemInsQIAma-Ow at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _mGvPLk7_EemInsQIAma-Ow at 2,10 size 14,7 {
+  					}
+  				}
+  				
+  				Button _8AEowU-VEemuzLIVcIcNvQ at 10,440 size 200,60 {
+  					displayLabel "Test 07"
+  					label "Test 07"
+  					styling ButtonStyling _8AEox0-VEemuzLIVcIcNvQ {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					options ButtonOptions _8AEoyU-VEemuzLIVcIcNvQ {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon _8AEoyE-VEemuzLIVcIcNvQ {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _8AEoxk-VEemuzLIVcIcNvQ {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop Double
+  						}
+  					MoveUp _8AEoy0-VEemuzLIVcIcNvQ at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _8AEozk-VEemuzLIVcIcNvQ at 2,10 size 14,7 {
+  					}
+  				}
+  				
+  				Button _qK1lMU-YEemuzLIVcIcNvQ at 10,510 size 200,60 {
+  					displayLabel "Test 08"
+  					label "Test 08"
+  					styling ButtonStyling _qK1lN0-YEemuzLIVcIcNvQ {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					options ButtonOptions _qK1lOU-YEemuzLIVcIcNvQ {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon _qK1lOE-YEemuzLIVcIcNvQ {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _qK1lNk-YEemuzLIVcIcNvQ {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop Double
+  						}
+  					MoveUp _qK1lO0-YEemuzLIVcIcNvQ at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _qK1lPk-YEemuzLIVcIcNvQ at 2,10 size 14,7 {
+  					}
+  				}
+  				
+  				Button _jGOLkU-bEemuzLIVcIcNvQ at 10,580 size 200,60 {
+  					displayLabel "Test 09"
+  					label "Test 09"
+  					styling ButtonStyling _jGOLl0-bEemuzLIVcIcNvQ {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					options ButtonOptions _jGOLmU-bEemuzLIVcIcNvQ {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon _jGOLmE-bEemuzLIVcIcNvQ {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _jGOLlk-bEemuzLIVcIcNvQ {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop Double
+  						}
+  					MoveUp _jGOLm0-bEemuzLIVcIcNvQ at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _jGOLnk-bEemuzLIVcIcNvQ at 2,10 size 14,7 {
+  					}
+  				}
+  				
+  				Button _EXtk8U-dEemuzLIVcIcNvQ at 10,650 size 200,60 {
+  					displayLabel "Test 10"
+  					label "Test 10"
+  					styling ButtonStyling _EXuMAE-dEemuzLIVcIcNvQ {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					options ButtonOptions _EXuMAk-dEemuzLIVcIcNvQ {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon _EXuMAU-dEemuzLIVcIcNvQ {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _EXtk9k-dEemuzLIVcIcNvQ {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop Double
+  						}
+  					MoveUp _EXuMBE-dEemuzLIVcIcNvQ at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _EXuMB0-dEemuzLIVcIcNvQ at 2,10 size 14,7 {
+  					}
+  				}
+  			}
+  		}
+  	}
+  	
+  	Box _ZQveUUPhEemMpbK4L8n81A at 10,890 size 120,170 {
+  		invisible false
+  		generalStyle GeneralStyling _ZQyhoEPhEemMpbK4L8n81A {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  				rawContent "padding: 15px;"
+  			}
+  		MoveUp _ZQwscUPhEemMpbK4L8n81A at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _ZQxTgUPhEemMpbK4L8n81A at 2,10 size 14,7 {
+  		}
+  		
+  		Placeholder _ZtpcwUPhEemMpbK4L8n81A at 10,60 size 100,80 {
+  			name "Content"
+  			generalStyle GeneralStyling _ZttHIEPhEemMpbK4L8n81A {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveUp _Ztqq4UPhEemMpbK4L8n81A at 2,2 size 14,7 {
+  			}
+  			
+  			MoveDown _ZtrR8UPhEemMpbK4L8n81A at 2,10 size 14,7 {
+  			}
+  		}
+  	}
+  }
+}
