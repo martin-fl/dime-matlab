@@ -17,6 +17,11 @@ This repo contains:
 - To build the java libraries, refer to `matlab_integration/README.md`.
 - To build the DIME project, refer to the [DIME wiki](https://scce.gitlab.io/dime/content/user-guide/development-with-docker.html).
 
+## How to run
+
+1. Start the matlab server in the `matlab_integration` directory
+2. Deploy your DIME app and go to `localhost:8080`
+
 ## Extending the SIBs library
 
 To extend the functionnalities of the matlab integration, there are several
